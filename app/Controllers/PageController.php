@@ -29,7 +29,6 @@ class PageController extends BaseController
             'totalPositif' => $totalPositif,
             'totalSembuh' => $totalSembuh,
             'totalMeninggal' => $totalMeninggal,
-            //hello
         ];
         return view('layouts/v_master', $data);
     }
